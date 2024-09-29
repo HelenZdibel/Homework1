@@ -1,0 +1,16 @@
+body {
+  background-color: aquamarine;
+}
+img {
+  width: 500px;
+  border: 1px dotted black;
+  padding: 5px;
+  margin: 50px;
+}
+
+p {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+}
