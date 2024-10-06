@@ -1,0 +1,31 @@
+#frameworks.wrapper {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#frameworks .box {
+  border: 1px solid grey;
+  margin: 20px;
+  padding-bottom: 20px;
+  width: 250px;
+}
+
+#frameworks h1 {
+  background-color: rgb(211, 48, 75);
+  margin: 0;
+  color: white;
+  padding: 30px;
+}
+
+#frameworks p {
+  padding: 0 10px;
+}
+
+#frameworks button {
+  background-color: rgb(211, 48, 75);
+  color: white;
+  border: 0;
+  padding: 8px 30px;
+}
