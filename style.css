@@ -1,0 +1,102 @@
+/* 
+max-width: 767px, 
+max-width: 1023px,
+max-width: 1199px 
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  padding: 15px;
+}
+button {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.btn-green {
+  background-color: rgb(46, 104, 32);
+  color: white;
+  margin: 30px;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+.btn-green:hover {
+  background-color: rgb(113, 236, 82);
+}
+#products {
+  margin: 20px 0;
+  text-align: center;
+}
+.featured-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  background-color: rgb(206, 206, 206);
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button {
+  border: 0;
+  background-color: rgb(1, 90, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  padding: 20px;
+}
+
+.social-links {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+}
